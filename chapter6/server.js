@@ -65,5 +65,5 @@ app.use('/api', router);
 
 
 
-app.listen(8010);
-console.log('Open http://localhost:8010 to access the files now'); 			// shoutout to the user
+app.listen(8000);
+console.log('Open http://localhost:8000 to access the files now'); 			// shoutout to the user

@@ -99,7 +99,7 @@ app.get('/api/logout', function(req, res) {
   res.redirect('/#/login');
 });
 
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 8010;
 app.listen(port);
 console.log('Please go to http://localhost:' + port);
 
